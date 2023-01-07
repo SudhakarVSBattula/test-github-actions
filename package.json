@@ -1,0 +1,29 @@
+{
+  "name": "@sudhakarvsbattula/test-github-actions",
+  "version": "1.0.0",
+  "description": "This package is to test the GitHub Packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SudhakarVSBattula/test-github-actions.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [
+    "test",
+    "package"
+  ],
+  "author": "Sudhakar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SudhakarVSBattula/test-github-actions/issues"
+  },
+  "homepage": "https://github.com/SudhakarVSBattula/test-github-actions#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
